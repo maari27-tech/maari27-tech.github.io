@@ -26,7 +26,7 @@ $(document).ready(function () {
 });
 
 let currentIndex = 0;
-const words = ['Backend','Node JS','Full Stack'];
+const words = ['Project Manager', 'Agile Leader', 'Scrum Master', 'Team Coordinator', 'Tech Strategist'];
 function changeText() {
     const span = document.getElementById('dynamic-text');
     currentIndex = (currentIndex + 1) % words.length;
